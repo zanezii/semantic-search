@@ -10,6 +10,8 @@ from beir.retrieval import models
 from beir.datasets.data_loader import GenericDataLoader
 from beir.retrieval.evaluation import EvaluateRetrieval
 from beir.retrieval.search.dense import DenseRetrievalExactSearch as DRES
+from transformers import AutoTokenizer, AutoModel
+
 from typing import Type, List, Dict, Union, Tuple
 from Index_construction import IndexConstruction
 from embedding import read_config_semantic_info
